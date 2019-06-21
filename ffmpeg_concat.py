@@ -25,9 +25,9 @@ def process_arguments():
 
 # process arguments
 args = process_arguments()
-print(args.input)
-print(args.output)
-print(args.newfile)
+#print(args.input)
+#print(args.output)
+#print(args.newfile)
 if args.input == None :
     args.input = os.curdir 
 sample_f_ext = '' # vidoe file extension 
